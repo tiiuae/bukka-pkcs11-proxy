@@ -10,6 +10,9 @@ CMakeFiles
 Trolltech.conf
 obj-i686-linux-gnu
 syscall-names.h
+CMakeCache.txt
+cmake_install.cmake
+config.h
 
 # tests
 venv/

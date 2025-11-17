@@ -18,8 +18,7 @@ else()
 endif()
 
 # Generate config.h
-configure_file(${CMAKE_SOURCE_DIR}/config.h.in ${CMAKE_BINARY_DIR}/config.h)
-include_directories(${CMAKE_BINARY_DIR})
+configure_file(${CMAKE_SOURCE_DIR}/config.h.in ${CMAKE_SOURCE_DIR}/config.h)
 
 # Set source files for the proxy and daemon
 set(PKCS11_PROXY_SRCS
